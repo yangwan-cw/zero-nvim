@@ -15,7 +15,7 @@ return {
       -- 与 netrw 相关（我们在 lazy 的 performance 里已禁用 netrwPlugin；这里再保险）
       disable_netrw = true,
       hijack_netrw = true,
-
+      
       -- 打开/同步行为
       sync_root_with_cwd = true,
       respect_buf_cwd = true,
